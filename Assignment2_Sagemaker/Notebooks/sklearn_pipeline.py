@@ -18,7 +18,7 @@ from sklearn.impute import SimpleImputer
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import Binarizer, StandardScaler, OneHotEncoder
 
-from dependencies import CombinedAttributesAdder
+from dependancies import CombinedAttributesAdder
 
 from sagemaker_containers.beta.framework import (
     content_types, encoders, env, modules, transformer, worker)
